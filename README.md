@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class ArraySearch {
+public class ElementSearch {
     public static void main(String[] args) {
         // Create an array of size 10
-        int[] numbers = new int[10];
+        int[] array = new int[10];
 
         // Get input from the user to fill the array
         Scanner scanner = new Scanner(System.in);
@@ -15,7 +15,7 @@ public class ArraySearch {
 
         // Get the element to search for from the user
         System.out.print("Enter the element to search for: ");
-        int target = scanner.nextInt();
+        int number = scanner.nextInt();
 
         // Perform the search and display the result
         int foundIndex = -1;
